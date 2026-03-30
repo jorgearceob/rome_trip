@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rome Trip Planner</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-100 text-stone-800">
+  <div class="max-w-6xl mx-auto px-4 py-8">
+    <header class="bg-white rounded-3xl shadow-sm p-6 md:p-8 mb-6 border border-stone-200">
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+        <div>
+          <p class="text-sm uppercase tracking-[0.2em] text-amber-700">Private trip page</p>
+          <h1 class="text-3xl md:text-4xl font-bold mt-1">Rome Trip Planner</h1>
+          <p class="text-stone-600 mt-2">A simple shared page for your trip details, plans, bookings, and notes.</p>
+        </div>
+        <div class="bg-amber-50 border border-amber-200 rounded-2xl px-4 py-3 text-sm">
+          <div><span class="font-semibold">Trip dates:</span> 2–6 April 2026</div>
+          <div><span class="font-semibold">Travelers:</span> Jorge &amp; Meli</div>
+          <div><span class="font-semibold">Status:</span> Flights booked · Hotel added · Florence + shopping adjusted</div>
+        </div>
+      </div>
+    </header>
+
+    <section class="grid md:grid-cols-4 gap-4 mb-6">
+      <a href="#overview" class="bg-white rounded-2xl p-4 shadow-sm border border-stone-200 hover:shadow-md transition">
+        <div class="font-semibold">Overview</div>
+        <div class="text-sm text-stone-500 mt-1">Main plan and priorities</div>
+      </a>
+      <a href="#itinerary" class="bg-white rounded-2xl p-4 shadow-sm border border-stone-200 hover:shadow-md transition">
+        <div class="font-semibold">Itinerary</div>
+        <div class="text-sm text-stone-500 mt-1">Day-by-day agenda</div>
+      </a>
+      <a href="#bookings" class="bg-white rounded-2xl p-4 shadow-sm border border-stone-200 hover:shadow-md transition">
+        <div class="font-semibold">Bookings</div>
+        <div class="text-sm text-stone-500 mt-1">Flights, hotel, tickets</div>
+      </a>
+      <a href="#notes" class="bg-white rounded-2xl p-4 shadow-sm border border-stone-200 hover:shadow-md transition">
+        <div class="font-semibold">Notes</div>
+        <div class="text-sm text-stone-500 mt-1">Reminders and ideas</div>
+      </a>
+    </section>
+
+    <main class="grid lg:grid-cols-3 gap-6">
+      <div class="lg:col-span-2 space-y-6">
+        <section id="overview" class="bg-white rounded-3xl p-6 shadow-sm border border-stone-200">
+          <h2 class="text-2xl font-semibold mb-4">Trip overview</h2>
+          <div class="grid md:grid-cols-2 gap-4">
+            <div class="bg-stone-50 rounded-2xl p-4">
+              <h3 class="font-semibold mb-2">Goals for the trip</h3>
+              <ul class="list-disc ml-5 text-stone-700 space-y-1">
+                <li>Cover Ancient Rome, Florence, and the Vatican in a compact Easter-weekend plan</li>
+                <li>Keep one full day solely for Vatican City</li>
+                <li>Fit in a Florence day trip and shopping stops in Rome</li>
+                <li>Mix iconic landmarks with the historical story of Rome</li>
+                <li>Keep booking details and links in one private page</li>
+              </ul>
+            </div>
+            <div class="bg-stone-50 rounded-2xl p-4">
+              <h3 class="font-semibold mb-2">Priority places</h3>
+              <ul class="list-disc ml-5 text-stone-700 space-y-1">
+                <li>Colosseum</li>
+                <li>Roman Forum &amp; Palatine Hill</li>
+                <li>Pantheon</li>
+                <li>Piazza Navona</li>
+                <li>Trevi Fountain</li>
+                <li>Vatican Museums</li>
+                <li>St. Peter’s Basilica</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="itinerary" class="bg-white rounded-3xl p-6 shadow-sm border border-stone-200">
+          <h2 class="text-2xl font-semibold mb-4">Itinerary</h2>
+          <div class="space-y-5">
+            <div class="border border-stone-200 rounded-2xl p-4">
+              <div class="flex items-center justify-between gap-3 flex-wrap">
+                <h3 class="font-semibold">2 April 2026 — Arrival + first orientation</h3>
+                <span class="text-sm bg-stone-100 text-stone-700 px-3 py-1 rounded-full">Travel day</span>
+              </div>
+              <div class="mt-3 text-sm text-stone-700 space-y-2">
+                <p><span class="font-semibold">Evening plan:</span> Arrive in Rome, transfer to Hotel Santa Maria Maggiore, check in, and keep the night light. Walk to the Basilica di Santa Maria Maggiore, then continue into Monti for dinner and a relaxed first look at the city.</p>
+                <p><span class="font-semibold">Suggested time blocks:</span> 20:00–21:00 arrival and hotel check-in · 21:00–21:30 Santa Maria Maggiore exterior and square · 21:30–23:00 Monti walk and dinner.</p>
+                <p><span class="font-semibold">Brief history:</span> Santa Maria Maggiore is one of Rome’s four major papal basilicas and one of the earliest great churches dedicated to the Virgin Mary, showing the transformation of Rome from imperial capital to Christian center.</p>
+              </div>
+            </div>
+
+            <div class="border border-stone-200 rounded-2xl p-4">
+              <div class="flex items-center justify-between gap-3 flex-wrap">
+                <h3 class="font-semibold">3 April 2026 — Ancient Rome + UNIQLO</h3>
+                <span class="text-sm bg-amber-100 text-amber-800 px-3 py-1 rounded-full">Republic &amp; Empire</span>
+              </div>
+              <div class="mt-3 text-sm text-stone-700 space-y-2">
+                <p><span class="font-semibold">08:00–09:00</span> Breakfast and walk toward the Colosseum area.</p>
+                <p><span class="font-semibold">09:00–10:30</span> Colosseum. Focus on the amphitheater from inside or outside depending on tickets. Best views are from the Piazza del Colosseo and the upper approaches.</p>
+                <p><span class="font-semibold">10:30–13:00</span> Roman Forum and Palatine Hill. Walk the Via Sacra, see the political and ceremonial core of Rome, then move up to the Palatine for views over the Forum and Circus Maximus.</p>
+                <p><span class="font-semibold">13:00–14:00</span> Lunch near the Forum or Monti.</p>
+                <p><span class="font-semibold">14:00–15:00</span> Capitoline Hill and Piazza del Campidoglio for one of the best overlook points into the Forum.</p>
+                <p><span class="font-semibold">15:00–16:00</span> Piazza Venezia and the exterior of the Vittoriano to connect ancient and modern national Rome.</p>
+                <p><span class="font-semibold">17:00–18:00</span> <strong>UNIQLO stop at Roma Termini</strong> on the way back toward the hotel. Use this window for clothing basics or anything you want before the Florence day.</p>
+                <p><span class="font-semibold">18:30 onward</span> Dinner around Monti.</p>
+                <p><span class="font-semibold">Brief history:</span> This is the backbone of Rome’s early story: the Forum was the civic heart of the republic, the Palatine was tied to the city’s legendary origins with Romulus, and the Colosseum represents imperial spectacle and state power under the Flavian emperors.</p>
+              </div>
+            </div>
+
+            <div class="border border-stone-200 rounded-2xl p-4">
+              <div class="flex items-center justify-between gap-3 flex-wrap">
+                <h3 class="font-semibold">4 April 2026 — Vatican City + Decathlon</h3>
+                <span class="text-sm bg-amber-100 text-amber-800 px-3 py-1 rounded-full">Papal Rome</span>
+              </div>
+              <div class="mt-3 text-sm text-stone-700 space-y-2">
+                <p><span class="font-semibold">07:30–08:30</span> Early start and transfer to Vatican City.</p>
+                <p><span class="font-semibold">08:30–11:30</span> Vatican Museums. Move through the great collections toward the Raphael Rooms and the approach to the Sistine Chapel.</p>
+                <p><span class="font-semibold">11:30–12:15</span> Sistine Chapel. Pause here for Michelangelo’s ceiling and Last Judgment.</p>
+                <p><span class="font-semibold">12:30–14:00</span> Lunch near the Vatican walls or Borgo.</p>
+                <p><span class="font-semibold">14:00–16:00</span> St. Peter’s Basilica. Watch the nave, Michelangelo’s Pietà, Bernini’s baldachin, and the immense scale of the church.</p>
+                <p><span class="font-semibold">16:00–17:00</span> St. Peter’s Square and Via della Conciliazione for the urban view back toward the basilica.</p>
+                <p><span class="font-semibold">17:30–20:00</span> <strong>Decathlon stop in Rome for rugby goods</strong> before returning to the hotel. Keep this as the dedicated sports-shopping slot.</p>
+                <p><span class="font-semibold">Brief history:</span> Vatican City grew from the site associated with the martyrdom and burial of Saint Peter. Over centuries the papacy built its spiritual and political center here, especially from the Renaissance onward, making it one of the most important religious and artistic complexes in the world.</p>
+              </div>
+            </div>
+
+            <div class="border border-stone-200 rounded-2xl p-4">
+              <div class="flex items-center justify-between gap-3 flex-wrap">
+                <h3 class="font-semibold">5 April 2026 — Florence day trip</h3>
+                <span class="text-sm bg-amber-100 text-amber-800 px-3 py-1 rounded-full">Renaissance day</span>
+              </div>
+              <div class="mt-3 text-sm text-stone-700 space-y-2">
+                <p><span class="font-semibold">06:30–07:30</span> Early breakfast and walk to Roma Termini.</p>
+                <p><span class="font-semibold">07:30–09:00</span> High-speed train to Florence. Aim for Firenze Santa Maria Novella.</p>
+                <p><span class="font-semibold">09:00–10:00</span> Walk from the station into the historic center.</p>
+                <p><span class="font-semibold">10:00–11:30</span> Piazza del Duomo: Cathedral of Santa Maria del Fiore, Baptistery, and Giotto’s Campanile from the exterior or with timed entry if booked.</p>
+                <p><span class="font-semibold">11:30–12:30</span> Piazza della Signoria and Palazzo Vecchio exterior. This is the political core of republican Florence.</p>
+                <p><span class="font-semibold">12:30–13:30</span> Lunch in the center.</p>
+                <p><span class="font-semibold">13:30–14:30</span> Ponte Vecchio and Arno river walk.</p>
+                <p><span class="font-semibold">14:30–16:00</span> Santa Croce area or flexible museum slot if you prebook something open that day.</p>
+                <p><span class="font-semibold">16:00–18:00</span> Slow coffee / gelato / final walk through the center.</p>
+                <p><span class="font-semibold">18:00–20:00</span> High-speed train back to Rome.</p>
+                <p><span class="font-semibold">20:00 onward</span> Late dinner near the hotel.</p>
+                <p><span class="font-semibold">Brief history:</span> Florence rose from medieval commune to banking and artistic powerhouse, especially under the Medici. It became one of the birthplaces of the Renaissance, where classical ideas were revived and transformed into a new vision of art, architecture, and civic life.</p>
+              </div>
+            </div>
+
+            <div class="border border-stone-200 rounded-2xl p-4">
+              <div class="flex items-center justify-between gap-3 flex-wrap">
+                <h3 class="font-semibold">6 April 2026 — Departure</h3>
+                <span class="text-sm bg-stone-100 text-stone-700 px-3 py-1 rounded-full">Return flight</span>
+              </div>
+              <div class="mt-3 text-sm text-stone-700 space-y-2">
+                <p><span class="font-semibold">Morning plan:</span> Check out and head to the airport for DY1871 departing Rome at 10:55.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="bookings" class="bg-white rounded-3xl p-6 shadow-sm border border-stone-200">
+          <h2 class="text-2xl font-semibold mb-4">Bookings and reservations</h2>
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-sm">
+              <thead>
+                <tr class="border-b border-stone-200 text-stone-500">
+                  <th class="py-3 pr-4">Type</th>
+                  <th class="py-3 pr-4">Details</th>
+                  <th class="py-3 pr-4">Date</th>
+                  <th class="py-3 pr-4">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-b border-stone-100">
+                  <td class="py-3 pr-4 font-medium">Flight</td>
+                  <td class="py-3 pr-4">Outbound: DY1872 · Oslo-Gardermoen to Rome-Fiumicino</td>
+                  <td class="py-3 pr-4">2 Apr 2026 · 16:45</td>
+                  <td class="py-3 pr-4">Booked</td>
+                </tr>
+                <tr class="border-b border-stone-100">
+                  <td class="py-3 pr-4 font-medium">Flight</td>
+                  <td class="py-3 pr-4">Return: DY1871 · Rome-Fiumicino to Oslo-Gardermoen</td>
+                  <td class="py-3 pr-4">6 Apr 2026 · 10:55</td>
+                  <td class="py-3 pr-4">Booked</td>
+                </tr>
+                <tr class="border-b border-stone-100">
+                  <td class="py-3 pr-4 font-medium">Hotel</td>
+                  <td class="py-3 pr-4"><a href="https://www.airbnb.es/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HM3HJM8W3C" class="text-amber-700 underline" target="_blank" rel="noopener noreferrer">Hotel Santa Maria Maggiore</a></td>
+                  <td class="py-3 pr-4">2–6 Apr 2026</td>
+                  <td class="py-3 pr-4">Added</td>
+                </tr>
+                <tr class="border-b border-stone-100">
+                  <td class="py-3 pr-4 font-medium">Ancient Rome</td>
+                  <td class="py-3 pr-4">Colosseum / Forum / Palatine Hill tickets</td>
+                  <td class="py-3 pr-4">3 Apr 2026</td>
+                  <td class="py-3 pr-4">To book</td>
+                </tr>
+                <tr class="border-b border-stone-100">
+                  <td class="py-3 pr-4 font-medium">Vatican</td>
+                  <td class="py-3 pr-4">Vatican Museums / Sistine Chapel entry</td>
+                  <td class="py-3 pr-4">4 Apr 2026</td>
+                  <td class="py-3 pr-4">To book</td>
+                </tr>
+                <tr>
+                  <td class="py-3 pr-4 font-medium">Florence day trip</td>
+                  <td class="py-3 pr-4">High-speed train from Roma Termini to Florence and back</td>
+                  <td class="py-3 pr-4">5 Apr 2026</td>
+                  <td class="py-3 pr-4">To book</td>
+                </tr>
+                <tr class="border-b border-stone-100">
+                  <td class="py-3 pr-4 font-medium">UNIQLO</td>
+                  <td class="py-3 pr-4">UNIQLO Roma Termini shopping stop</td>
+                  <td class="py-3 pr-4">3 Apr 2026 · 17:00</td>
+                  <td class="py-3 pr-4">Planned</td>
+                </tr>
+                <tr>
+                  <td class="py-3 pr-4 font-medium">Decathlon</td>
+                  <td class="py-3 pr-4">Rome shopping stop for rugby sporting goods</td>
+                  <td class="py-3 pr-4">4 Apr 2026 · 17:30</td>
+                  <td class="py-3 pr-4">Planned</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+
+      <aside class="space-y-6">
+        <section class="bg-white rounded-3xl p-6 shadow-sm border border-stone-200">
+          <h2 class="text-xl font-semibold mb-4">Checklist</h2>
+          <div class="space-y-3 text-sm">
+            <label class="flex items-center gap-3"><input type="checkbox" checked class="w-4 h-4"> Flight booked</label>
+            <label class="flex items-center gap-3"><input type="checkbox" checked class="w-4 h-4"> Hotel booked</label>
+            <label class="flex items-center gap-3"><input type="checkbox" class="w-4 h-4"> Airport transfer planned</label>
+            <label class="flex items-center gap-3"><input type="checkbox" class="w-4 h-4"> Vatican tickets booked</label>
+            <label class="flex items-center gap-3"><input type="checkbox" class="w-4 h-4"> Colosseum tickets booked</label>
+            <label class="flex items-center gap-3"><input type="checkbox" class="w-4 h-4"> Packing list ready</label>
+          </div>
+        </section>
+
+        <section class="bg-white rounded-3xl p-6 shadow-sm border border-stone-200">
+          <h2 class="text-xl font-semibold mb-4">Shopping stops</h2>
+          <div class="space-y-3 text-sm text-stone-700">
+            <div class="bg-amber-50 border border-amber-200 rounded-2xl p-4">
+              <div class="font-semibold">UNIQLO Roma Termini — 3 April</div>
+              <div class="mt-1">Planned after the Ancient Rome day, around 17:00–18:00, on the way back toward the hotel.</div>
+            </div>
+            <div class="bg-amber-50 border border-amber-200 rounded-2xl p-4">
+              <div class="font-semibold">Decathlon stop in Rome — 4 April</div>
+              <div class="mt-1">Planned after the Vatican day, around 17:30–20:00, as the dedicated stop for rugby sporting goods.</div>
+            </div>
+          </div>
+        </section>
+
+        
+
+        <section id="notes" class="bg-white rounded-3xl p-6 shadow-sm border border-stone-200">
+          <h2 class="text-xl font-semibold mb-4">Notes</h2>
+          <div class="space-y-3">
+            <div class="bg-stone-50 rounded-2xl p-4 text-sm text-stone-700">Try keeping dinner flexible around Monti, Piazza Navona, and Trastevere depending on how tired you are after each day.</div>
+            <div class="bg-stone-50 rounded-2xl p-4 text-sm text-stone-700">Because this trip falls on Holy Week and Easter, keep the Vatican day early and ticket-driven, and keep Florence as a mostly walking-based day unless you prebook a museum slot that is confirmed open.</div>
+            <div class="bg-stone-50 rounded-2xl p-4 text-sm text-stone-700">UNIQLO is easiest to combine with Roma Termini after the Ancient Rome day. Keep the Decathlon stop flexible and ticket-free so it can move depending on energy levels after the Vatican visit.</div>
+            <div class="bg-stone-50 rounded-2xl p-4 text-sm text-stone-700">Historical flow of the trip: Ancient Rome → Vatican / Papal Rome → Florence and the Renaissance.</div>
+          </div>
+        </section>
+      </aside>
+    </main>
+  </div>
+</body>
+</html>
